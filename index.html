@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIK TAC TOE</title>
+    <link rel="stylesheet" href="tiktacstyle.css">
+    <script src="tikscript.js"></script>
+</head>
+<body>
+   <center><h1>TIK TAC TOE</h1>
+    <hr>
+    <table>
+        <tr>
+            <td><button class="btn1 bt" onclick="draw('btn1')"></button></td>
+            <td><button class="btn2 bt" onclick="draw('btn2')"></button></td>
+            <td><button class="btn3 bt" onclick="draw('btn3')"></button></td>
+        </tr>
+        <tr>
+            <td><button class="btn4 bt" onclick="draw('btn4')"></button></td>
+            <td><button class="btn5 bt"onclick="draw('btn5')"></button></td>
+            <td><button class="btn6 bt"onclick="draw('btn6')"></button></td>
+        </tr>
+        <tr>
+            <td><button class="btn7 bt"onclick="draw('btn7')"></button></td>
+            <td><button class="btn8 bt" onclick="draw('btn8')"></button></td>
+            <td><button class="btn9 bt"onclick="draw('btn9')"></button></td>
+        </tr>
+    </table>
+    <br> <br>
+    <button id="reset" onclick="reset('bt')">reset</button>
+    <br> <br> <div id="result"></div>
+    </center>
+</body>
+</html>
